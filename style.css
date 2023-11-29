@@ -1,0 +1,83 @@
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+.main{
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    position: relative;
+    width: 150px;
+    height: 18px;
+    border-radius: 5px; 
+}
+.sub{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    position: relative;
+    width: 130px;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+li{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.hide {
+    display: none;
+    font-weight: 900;
+}
+
+.parent {
+    width: 328px;
+    height: 228px;
+    padding: 20px;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.parent button {
+    padding: 2px;
+    margin-right: 5px;
+    line-height: 11px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 46, 48);
+}
+
+.child {
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.child:first-of-type {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-bottom: 0;
+}
+
+.child:last-of-type {
+    padding-top: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.p_btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+
+}
